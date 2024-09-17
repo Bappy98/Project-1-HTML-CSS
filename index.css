@@ -174,10 +174,21 @@ form > div{
     max-width: 400px;
     margin: auto;
 }
+form label{
+    font-size: large;
+    font-weight: 600;
+}
+form div{
+    margin: 15px auto;
+}
 form >div >input,textarea{
     border: 2px solid black;
     border-radius: 5px;
-    padding: 5px;
+    padding: 10px;
+    font-size: larger;
+}
+textarea{
+    height: 200px;
 }
 .footer{
     margin: 20px 0px;
